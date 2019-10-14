@@ -16,7 +16,6 @@ class LoginViewController: UIViewController {
     @IBOutlet private weak var errorLabel: UILabel!
     
     weak var coordinator: MainCoordinator?
-    let server = "www.example.com"
     
     override func viewDidLoad() {
         super.viewDidLoad()
